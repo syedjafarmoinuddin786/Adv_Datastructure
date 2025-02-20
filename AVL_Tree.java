@@ -136,7 +136,7 @@ public class AVL_Tree {
     }
 
     public static void main(String[] args) {
-        avl_tree tree = new avl_tree();
+        AVL_Tree tree = new AVL_Tree();
         String inputFile = "input.txt";
         String outputFile = "output.txt";
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
