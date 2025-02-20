@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class BTree {
+public class B_Tree {
     private int T; // Minimum degree of the B-tree
 
     // Node class representing a node in the B-tree
