@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class avl_tree {
+public class AVL_Tree {
     class Node {
         int item, height;
         Node left, right;
