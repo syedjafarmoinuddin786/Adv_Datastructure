@@ -10,7 +10,7 @@ class BFS_AM {
         
         while (!q.isEmpty()) {
             vis = q.get(0);
-            System.out.print(vis + " ");
+            System.out.println(vis + " ");
             q.remove(0); // Correcting the position of the element removal
             
             for (int i = 0; i < 5; i++) {
